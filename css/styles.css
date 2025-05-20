@@ -7,6 +7,7 @@ Dark gray #222222
 Light gray #d3d4d6
 Off-white #f6f6f6
 
+
 SITE FONTS
 Caveat
     font-family: "Caveat", cursive;
@@ -89,7 +90,7 @@ a {
 }
 
 a:hover {
-    color: #bcaa96;
+    color: darkblue;
     text-decoration: none;
 }
 
@@ -124,7 +125,7 @@ footer a:hover {
 /* HOME
 ----------------------------*/
 .home {
-    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+    background: url(../images/compbg.jpg) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -152,7 +153,7 @@ footer a:hover {
 /* RESUME
 ----------------------------*/
 .resume header::before {
-    background: url(../images/bg-home-office-studio.jpg) center / cover;
+    background: url(../images/compbg.jpg) center / cover;
     background-size: cover;
     content: "";
     display: block;
