@@ -7,7 +7,6 @@ Dark gray #222222
 Light gray #d3d4d6
 Off-white #f6f6f6
 
-
 SITE FONTS
 Caveat
     font-family: "Caveat", cursive;
@@ -28,8 +27,10 @@ Delius
     font-weight: 400;
     font-style: normal;
 
-
-
+Share Tech
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 
 
 /* GLOBAL STYLES
@@ -37,7 +38,7 @@ Delius
 
 /* IMPORT FONTS --------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Share+Tech&display=swap');
 /*
 https://www.paulirish.com/2012/box-sizing-border-box-ftw/
 */
@@ -55,7 +56,7 @@ html,body {
 }
 
 body {
-    background: rgb(154, 139, 166);
+    background: rgb(165, 139, 186);
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
@@ -63,9 +64,9 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Caveat', cursive;
     font-weight: 400;
     margin: 10px;
+    font-family: "Share Tech", sans-serif;
 }
 
 h1{
@@ -127,12 +128,13 @@ footer a:hover {
     background-size: cover;
     display: flex;
     flex-direction: column;
+    font-size: 2em;
     }
-    .home .content-wrapper {
+.home .content-wrapper {
     flex: 1 0 auto;
 }
 .content-bg {
-    background: rgb(255 255 255 / 0.9);
+    background: rgba(162, 116, 218, 0.9);
     /* background-color: #ffffff09; */
     padding: 30px;
 }
