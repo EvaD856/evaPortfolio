@@ -86,11 +86,11 @@ h3{
 
 /* Links */
 a {
-    color: white
+    color: rgb(237, 226, 242)
 }
 
 a:hover {
-    color: purple;
+    color: darkmagenta;
     text-decoration:none;
     text-decoration: underline;
     font-weight:bold;
@@ -98,7 +98,7 @@ a:hover {
 }
 
 footer a {
-    color: #bcaa96;
+    color: rgb(182, 103, 216);
 }
 
 footer a:hover {
